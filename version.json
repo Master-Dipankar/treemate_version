@@ -1,6 +1,6 @@
 {
   "latest_version": "1.0.0.1",
   "app_enabled": true,
-  "valid_until": "2025-08-31T23:59:59Z",
+  "valid_until": "2026-08-31T23:59:59Z",
   "message": "The app is currently disabled for maintenance. Please try again later."
 }
