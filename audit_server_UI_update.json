@@ -1,0 +1,133 @@
+{
+  "config_version": 2,
+  "app_enabled": true,
+  "message": "AudiFlo is ready!",
+  "valid_until": "2026-01-01T00:00:00Z",
+  "latest_version": "1.4.0",
+  "min_version": "1.3.0",
+  "force_update": false,
+  "allowed_ids": [
+    "install-qa-001",
+    "install-support-002"
+  ],
+  "blocked_ids": [
+    "install-rogue-999"
+  ],
+  "ui_prompts": [
+    {
+      "id": "update-soft-20251103",
+      "type": "modal",
+      "priority": "soft_block",
+      "title": "Update available",
+      "body": "Upgrade for the latest bug fixes and performance improvements.",
+      "features": [
+        "Reduced load time",
+        "Improved playback controls"
+      ],
+      "cta": {
+        "label": "Update",
+        "action": "store://app",
+        "fallback": "https://audiflo.app/update"
+      },
+      "dismissible": true,
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "valid_from": "2025-11-01T00:00:00Z",
+      "valid_until": "2025-12-15T00:00:00Z",
+      "conditions": {
+        "locale": [
+          "en"
+        ],
+        "app_channel": [
+          "production"
+        ],
+        "min_os": "Android-29",
+        "segments": [
+          "general_release"
+        ]
+      }
+    },
+    {
+      "id": "info-banner-202511",
+      "type": "banner",
+      "priority": "info",
+      "title": "New Spiral Audio",
+      "body": "Check Player 2 for spiral audio demos.",
+      "cta": {
+        "label": "Try now",
+        "action": "screen://player2"
+      },
+      "dismissible": true,
+      "platforms": [
+        "android",
+        "ios",
+        "web"
+      ],
+      "conditions": {
+        "segments": [
+          "beta_testers",
+          "general_release"
+        ]
+      }
+    },
+    {
+      "id": "update-hard-202512",
+      "type": "modal",
+      "priority": "hard_block",
+      "title": "Critical update required",
+      "body": "Install AudiFlo 2.0 or later to continue using the app.",
+      "features": [
+        "Adaptive voices",
+        "Security patches"
+      ],
+      "cta": {
+        "label": "Update now",
+        "action": "store://app",
+        "fallback": "https://audiflo.app/download"
+      },
+      "dismissible": false,
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "valid_from": "2025-12-20T00:00:00Z",
+      "valid_until": "2026-01-31T00:00:00Z",
+      "conditions": {
+        "app_channel": [
+          "production"
+        ],
+        "segments": [
+          "legacy_users"
+        ]
+      }
+    }
+  ],
+  "release_notes": {
+    "version": "1.4.0",
+    "highlights": [
+      "Character voice blending",
+      "Refined library filters"
+    ],
+    "bug_fixes": [
+      "Fixed search debounce",
+      "Patched iOS 18 layout shift"
+    ],
+    "learn_more_url": "https://audiflo.app/changelog"
+  },
+  "ui_sections": {
+    "home_top_banner": {
+      "visible": true,
+      "title": "AudiFlo Labs",
+      "subtitle": "Try the new Spiral Audio player.",
+      "cta_label": "Open Player 2",
+      "cta_route": "screen://player2"
+    }
+  },
+  "prompt_debug": false,
+  "analytics": {
+    "impression_event": "remote_prompt_impression",
+    "action_event": "remote_prompt_action"
+  }
+}
