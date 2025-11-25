@@ -1,4 +1,18 @@
 {
+  "_comments": {
+    "audiflo_examples": [
+      {
+        "latest_version": "1.2.0",
+        "min_version": "0.0.1",
+        "note": "1.2.0 > 0.1.0, so update available. min_version(0.0.1) < installed(0.1.0), so NOT forced."
+      },
+      {
+        "latest_version": "1.2.0",
+        "min_version": "1.1.0",
+        "note": "1.1.0 > installed(0.1.0), so this forces the update."
+      }
+    ]
+  },
   "treemate": {"latest_version": "1.0.0.1",
   "app_enabled": true,
   "valid_until": "2026-08-31T23:59:59Z",
