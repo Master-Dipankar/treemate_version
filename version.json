@@ -5,8 +5,8 @@
   "message": "The app is currently disabled for maintenance. Please try again later."
   },
   "audiflo": {
-    "latest_version": "1.2.0",
-    "min_version": "1.0.0",
+    "latest_version": "0.1.2",
+    "min_version": "0.1.1",
     "update_url": "https://play.google.com/store/apps/details?id=com.audiflo.zrota.app",
     "message": "New version available!"
   }
