@@ -24,7 +24,7 @@
     "update_url": "https://play.google.com/store/apps/details?id=com.audiflo.zrota.app",
     "message": "New version available!",
     "ads_enabled": true,
-    "ad_frequency": 2,
+    "ad_frequency": 3,
     "android_interstitial_id": "ca-app-pub-3940256099942544/1033173712"
   }
 }
