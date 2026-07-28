@@ -23,6 +23,13 @@
     "min_version": "0.4.627",
     "update_url": "https://play.google.com/store/apps/details?id=com.audiflo.zrota.app",
     "message": "New version available!",
+        "whats_new": {
+      "target_version": "9.9.9",
+      "features": [
+        {"title": "Test Feature 1", "icon": "star"},
+        {"title": "Test Feature 2", "icon": "rocket"}
+      ]
+    }
     "tamper_protection_enabled": true,
     "ads_enabled": false,
     "ad_frequency": 3,
