@@ -29,7 +29,7 @@
         {"title": "Test Feature 1", "icon": "star"},
         {"title": "Test Feature 2", "icon": "rocket"}
       ]
-    }
+    },
     "tamper_protection_enabled": true,
     "ads_enabled": false,
     "ad_frequency": 3,
