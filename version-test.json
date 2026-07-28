@@ -23,19 +23,20 @@
     "min_version": "0.4.627",
     "update_url": "https://play.google.com/store/apps/details?id=com.audiflo.zrota.app",
     "message": "New version available!",
-        "whats_new": {
-      "target_version": "0.4.629",
-      "features": [
-        {"title": "Test Feature 1", "icon": "star"},
-        {"title": "Test Feature 2", "icon": "rocket"},
-        {"title": "Test Feature 3", "icon": "star"},
-        {"title": "Test Feature 4", "icon": "rocket"},
-                {"title": "Test Feature 5", "icon": "star"},
-        {"title": "Test Feature 6", "icon": "rocket"},
-                {"title": "Test Feature 7", "icon": "star"},
-        {"title": "Test Feature 8", "icon": "rocket"}
-      ]
-    },
+"whats_new": {
+  "target_version": "0.4.629",
+  "features": [
+    {"title": "🤖 AI Voice Cloning"},
+    {"title": "🎙️ New Halo & Orion premium AI voices"},
+    {"title": "📚 Offline multi-voice narration for books"},
+    {"title": "🎁 Referral rewards"},
+    {"title": "⚡ Smarter AI voice selection for PDFs, EPUBs, web articles & ebooks"},
+    {"title": "🎧 More natural text-to-speech"},
+    {"title": "🛠️ Lots of bug fixes, performance improvements, and better stability"},
+    {"title": "🧪 Available First in Open Beta: The latest version is rolling out to the Open Beta channel first."},
+    {"title": "❤️ I Need Your Feedback: Please let me know if you find bugs, test the new voices, or notice performance improvements!"}
+  ]
+},
     "tamper_protection_enabled": true,
     "ads_enabled": false,
     "ad_frequency": 3,
