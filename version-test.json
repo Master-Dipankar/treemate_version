@@ -27,7 +27,13 @@
       "target_version": "0.4.629",
       "features": [
         {"title": "Test Feature 1", "icon": "star"},
-        {"title": "Test Feature 2", "icon": "rocket"}
+        {"title": "Test Feature 2", "icon": "rocket"},
+        {"title": "Test Feature 1", "icon": "star"},
+        {"title": "Test Feature 2", "icon": "rocket"},
+                {"title": "Test Feature 1", "icon": "star"},
+        {"title": "Test Feature 2", "icon": "rocket"},
+                {"title": "Test Feature 1", "icon": "star"},
+        {"title": "Test Feature 2", "icon": "rocket"},
       ]
     },
     "tamper_protection_enabled": true,
