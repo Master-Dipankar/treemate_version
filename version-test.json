@@ -33,7 +33,7 @@
                 {"title": "Test Feature 5", "icon": "star"},
         {"title": "Test Feature 6", "icon": "rocket"},
                 {"title": "Test Feature 7", "icon": "star"},
-        {"title": "Test Feature 8", "icon": "rocket"},
+        {"title": "Test Feature 8", "icon": "rocket"}
       ]
     },
     "tamper_protection_enabled": true,
