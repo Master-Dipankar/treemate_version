@@ -37,7 +37,7 @@
 },
     "tamper_protection_enabled": true,
     "ads_enabled": false,
-    "ad_frequency": 3,
+    "ad_frequency": 0,
     "android_interstitial_id": "ca-app-pub-3661963842321347/6569982977"
   }
 }
