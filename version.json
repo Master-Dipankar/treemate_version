@@ -19,19 +19,19 @@
   "message": "The app is currently disabled for maintenance. Please try again later."
   },
   "audiflo": {
-    "latest_version": "0.4.628+198",
-    "min_version": "0.4.628+197",
+    "latest_version": "0.4.628+203",
+    "min_version": "0.4.628+198",
     "update_url": "https://play.google.com/store/apps/details?id=com.audiflo.zrota.app",
     "message": "New version available!",
   "whats_new": {
-  "target_version": "0.4.628",
+  "target_version": "0.4.628+203",
   "features": [
-    {"title": "🚀 Biggest AudiFlo update yet!"},
-    {"title": "✨ AI Voice Cloning"},
-    {"title": "🎙️ New Halo & Orion premium AI voices"},
-    {"title": "📚 Offline multi-voice narration for books"},
-    {"title": "🎁 Referral rewards"},
-    {"title": "⚡ Better AI voice selection for PDFs, EPUBs, web articles & ebooks"},
+    {"title": "🎁 Referral Rewards: Invite friends to Rank Up to Rank E & unlock premium perks!"},
+    {"title": "✨ Improved AI Voice Cloning"},
+    {"title": "🎙️ 2 New Premium Male Halo AI Voices available for Rank E members"},
+    {"title": "💬 Improved auto-detection for book character voices & dialogue parsing"},
+    {"title": "⚡ Instant playback with gapless background pre-generation"},
+    {"title": "🌐 Unlimited Web Article imports for Rank E members"},
     {"title": "🎧 More natural text-to-speech"}
   ]
 },
