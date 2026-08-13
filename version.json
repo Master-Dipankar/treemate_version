@@ -26,13 +26,7 @@
   "whats_new": {
   "target_version": "0.4.628+201",
   "features": [
-    {"title": "🎁 Referral Rewards: Invite friends to Rank Up to Rank E & unlock premium perks!"},
-    {"title": "✨ Improved AI Voice Cloning"},
-    {"title": "🎙️ 2 New Premium Male Halo AI Voices available for Rank E members"},
-    {"title": "💬 Improved auto-detection for book character voices & dialogue parsing"},
-    {"title": "⚡ Instant playback with gapless background pre-generation"},
-    {"title": "🌐 Unlimited Web Article imports for Rank E members"},
-    {"title": "🎧 More natural text-to-speech"}
+
   ]
 },
     "tamper_protection_enabled": true,
