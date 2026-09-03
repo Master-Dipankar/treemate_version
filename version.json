@@ -19,17 +19,17 @@
   "message": "The app is currently disabled for maintenance. Please try again later."
   },
   "audiflo": {
-    "latest_version": "1.0.0+213",
-    "min_version": "0.4.629+206",
+    "latest_version": "1.0.0+224",
+    "min_version": "1.0.0+213",
     "update_url": "https://play.google.com/store/apps/details?id=com.audiflo.zrota.app",
     "message": "New version available!",
   "whats_new": {
-  "target_version": "0.4.628+203",
+  "target_version": "1.0.0+213",
   "features": [
-    {"title": "Rank E user now can clone up to 5 custom voices"},
-    {"title": "Added 6 Halo Premium voices in total"},
-    {"title": "Web-imported books now support multi-character narration"},
-    {"title": "Import unlimited articles for Rank E users"},
+    {"title": "16 new premium voices — more natural, expressive voices for your books"},
+    {"title": "Longer listening, lower battery use — smoother playback with improved efficiency"},
+    {"title": "Edit & manage chapters in pasted-text books"},
+    {"title": "Export HD chapter audio from pasted-text books"},
     {"title": "Enjoy unlimited 3D Immersive+ surround sound with multi-characetr narration"},
     {"title": "Referrals system improved where users now can earn Free Rank E upgrade"},
     {"title": "Bug fixes and Improvements"}
