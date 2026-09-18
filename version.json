@@ -40,14 +40,9 @@
     
   "target_version": "1.0.0+213",
   "_comment": "Keep target_version identical to latest_version for release notes to show",
-    
+  
   "features": [
-    {"title": "16 new premium voices — more natural, expressive voices for your books"},
-    {"title": "Longer listening, lower battery use — smoother playback with improved efficiency"},
-    {"title": "Edit & manage chapters in pasted-text books"},
-    {"title": "Export HD chapter audio from pasted-text books"},
-    {"title": "Enjoy unlimited 3D Immersive+ surround sound with multi-characetr narration"},
-    {"title": "Referrals system improved where users now can earn Free Rank E upgrade"},
+    {"title": "Stability Improvements"},
     {"title": "Bug fixes and Improvements"}
   ]
     
