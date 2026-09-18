@@ -26,8 +26,8 @@
     "_comment_versions": "latest_version: Optional update for all. min_version: Mandatory force update for all.",
 
     
-    "beta_version": "1.0.0+230",
-    "target_builds": [225, 226, 228],
+    "beta_version": "1.0.0+231",
+    "target_builds": [230],
     "_comment_beta": "Leave target_builds empty [] when NOT running a beta-only test.",
 
     
@@ -38,7 +38,7 @@
     
   "whats_new": {
     
-  "target_version": "1.0.0+229",
+  "target_version": "1.0.0+230",
   "_comment": "Keep target_version identical to latest_version for release notes to show",
   
   "features": [
