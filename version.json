@@ -38,7 +38,7 @@
     
   "whats_new": {
     
-  "target_version": "1.0.0+213",
+  "target_version": "1.0.0+229",
   "_comment": "Keep target_version identical to latest_version for release notes to show",
   
   "features": [
