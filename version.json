@@ -19,13 +19,28 @@
   "message": "The app is currently disabled for maintenance. Please try again later."
   },
   "audiflo": {
+
+    
     "latest_version": "1.0.0+224",
     "min_version": "1.0.0+213",
+    "_comment_versions": "latest_version: Optional update for all. min_version: Mandatory force update for all.",
+
+    
+    "beta_version": "1.0.0+228",
+    "target_builds": [225, 226, 227],
+    "_comment_beta": "Leave target_builds empty [] when NOT running a beta-only test.",
+
+    
     "update_url": "https://play.google.com/store/apps/details?id=com.audiflo.zrota.app",
     "message": "New version available!",
+
+  "_comment_whats_new": "Keep target_version identical to latest_version (or beta_version) for release notes to show in the dialog",
+    
   "whats_new": {
+    
   "target_version": "1.0.0+213",
   "_comment": "Keep target_version identical to latest_version for release notes to show",
+    
   "features": [
     {"title": "16 new premium voices — more natural, expressive voices for your books"},
     {"title": "Longer listening, lower battery use — smoother playback with improved efficiency"},
@@ -35,6 +50,7 @@
     {"title": "Referrals system improved where users now can earn Free Rank E upgrade"},
     {"title": "Bug fixes and Improvements"}
   ]
+    
 },
     "tamper_protection_enabled": true,
     "ads_enabled": false,
