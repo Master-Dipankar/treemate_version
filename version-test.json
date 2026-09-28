@@ -19,25 +19,41 @@
   "message": "The app is currently disabled for maintenance. Please try again later."
   },
   "audiflo": {
-    "latest_version": "0.4.628",
-    "min_version": "0.4.628",
+
+    
+    "latest_version": "1.0.0+229",
+    "min_version": "1.0.0+227",
+    "_comment_versions": "latest_version: Optional update for all. min_version: Mandatory force update for all.",
+
+    
+    "beta_version": "1.0.0+241",
+    "target_builds": [230, 231, 240],
+    "_comment_beta": "Leave target_builds empty [] when NOT running a beta-only test.",
+
+    
     "update_url": "https://play.google.com/store/apps/details?id=com.audiflo.zrota.app",
     "message": "New version available!",
-"whats_new": {
-  "target_version": "0.4.628",
+
+  "_comment_whats_new": "Keep target_version identical to latest_version (or beta_version) for release notes to show in the dialog",
+    
+  "whats_new": {
+    
+  "target_version": "1.0.0+230",
+  "_comment": "Keep target_version identical to latest_version for release notes to show",
+  
   "features": [
-    {"title": "🚀 Biggest AudiFlo update yet!"},
-    {"title": "✨ AI Voice Cloning"},
-    {"title": "🎙️ New Halo & Orion premium AI voices"},
-    {"title": "📚 Offline multi-voice narration for books"},
-    {"title": "🎁 Referral rewards"},
-    {"title": "⚡ Better AI voice selection for PDFs, EPUBs, web articles & ebooks"},
-    {"title": "🎧 More natural text-to-speech"}
+    {"title": "All new e-pub Reader and Player for e-book lovers"},
+    {"title": "Read mode comes with long reading and Auto scrolling for e-pubs."},
+    {"title": "Halo speed and power use optimized."},
+    {"title": "Character voice switching during playback has been improved for users looking for immersive and unique audiobook experience."},
+    {"title": "Longer listening, lower battery use — smoother playback with improved efficiency"},
+    {"title": "UI, performance, and other stability improvements"}
   ]
+    
 },
     "tamper_protection_enabled": true,
     "ads_enabled": false,
-    "ad_frequency": 3,
+    "ad_frequency": 0,
     "android_interstitial_id": "ca-app-pub-3661963842321347/6569982977"
   }
 }
