@@ -39,7 +39,7 @@
   "whats_new": {
     
   "target_version": "1.0.0+241",
-  "_comment": "Keep target_version identical to latest_version or latest top beta verion you are releasing for release notes to show"",
+  "_comment": "Keep target_version identical to latest_version or latest top beta verion you are releasing for release notes to show",
   
   "features": [
     {"title": "All new e-pub Reader and Player for e-book lovers"},
